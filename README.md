@@ -16,7 +16,7 @@ python -m pip install -r requirements.txt
 ### Test source code
 ```bash
 # export if script name not app.py
-export FLASK_APP=scriptname.py
+export FLASK_APP=app.py
 flask run
 # CTRL-C to exit
 ```
