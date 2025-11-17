@@ -1,0 +1,10 @@
+services:
+  flask-app:
+    image: kcsoukup/python-docker:latest
+    container_name: flask-hello-world
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=development
+    restart: unless-stopped
